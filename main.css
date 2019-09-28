@@ -1,13 +1,29 @@
 body {
     background-color: #363636;
-  }
+    color: white;
+}
   
-  h1 {
+#search {
+
+}
+
+.pagehead{
+    background-color: #0078D7;
+    color: white;
+}
+
+.header{
+      background-color: #FF4343;
+      color: white;
+}
+ul {list-style-type:none;}
+
+h1 {
     color: white;
     text-align: center;
-  }
+}
   
-  p {
+p {
     font-family: verdana;
     font-size: 20px;
-  }
+}
