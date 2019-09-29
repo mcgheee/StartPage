@@ -4,35 +4,54 @@ body {
 }
   
 #search {
-
+    display: block;
 }
-
 .pagehead{
     background-color: #0078D7;
     color: white;
+    text-align: center;
 }
 
-.icon{
+.container{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+table.linkbox{ margin: 0 auto;}
+
+img.icon{
     height: 57px;
     width: 57px;
-    margin: 2px;
+    background-color: white;
+    border-color: white;
+    border: 1px solid;
 }
 
 .header{
       background-color: #FF4343;
       color: white;
 }
+
 ul {
     list-style-type:none;
-    font-size: 57px
+    display: flex;
+    justify-content: center;
+}
+
+li {
+  margin: 4px;
+  display: inline;
+  text-align: center;
 }
 
 h1 {
     color: white;
     text-align: center;
 }
-  
-p {
-    font-family: verdana;
-    font-size: 20px;
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+    
 }
