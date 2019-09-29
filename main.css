@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
 body {
     background-color: #363636;
     color: white;
@@ -48,6 +50,7 @@ li {
 h1 {
     color: white;
     text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 
 a:link, a:visited, a:hover, a:active {
