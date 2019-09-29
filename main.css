@@ -12,11 +12,20 @@ body {
     color: white;
 }
 
+.icon{
+    height: 57px;
+    width: 57px;
+    margin: 2px;
+}
+
 .header{
       background-color: #FF4343;
       color: white;
 }
-ul {list-style-type:none;}
+ul {
+    list-style-type:none;
+    font-size: 57px
+}
 
 h1 {
     color: white;
